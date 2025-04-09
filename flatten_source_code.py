@@ -4,6 +4,7 @@ def exec(file):
     file_path = Path(file)
     if not file_path.exists():
         print("File không tồn tại/ Không tìm thấy file");
+        exit(1)
     
     with open(file, 'r') as f:
         code = f.read().replace('\n', ' ')
@@ -11,6 +12,7 @@ def exec(file):
         code =code.replace('  ', '')
 
     print(code)
+    
     return
 if __name__ == '__main__':
     if len(sys.argv) !=2:
