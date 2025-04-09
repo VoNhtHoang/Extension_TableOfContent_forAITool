@@ -10,3 +10,7 @@
 
 ## On AI web:
 - Nhấn vào bookmark/extension đã tạo.
+
+
+## On using:
+![alt text](IMG_Example/image.png)
